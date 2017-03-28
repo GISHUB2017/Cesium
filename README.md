@@ -1,7 +1,7 @@
 # Cesium
 WebGL开源三维地图引擎  
 
-![框架](\images\Cesium_Framwork.png)
+![框架](https://github.com/GISHUB2017/Cesium/blob/master/Images/Cesium_Framwork.png)
 ## 
 + Apps  
 Cesium详细的范例程序，建议都自己仿照着敲一遍，会有不少收获  
