@@ -1,4 +1,4 @@
-﻿//cesium网图切片服务适配器
+﻿//Cesium网图切片服务适配器
 
 
 function iTelluro() {

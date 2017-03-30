@@ -1,5 +1,5 @@
-﻿var devModel = true;
-if (devModel) {
+﻿var devMode = true;
+if (devMode) {
     require.config({
         baseUrl:"../Cesium/Source"
     });
