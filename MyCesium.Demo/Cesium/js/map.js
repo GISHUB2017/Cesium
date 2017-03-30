@@ -9,9 +9,9 @@ function onload(Cesium) {
         timeline: false,//时间线不显示
         scene3DOnly: false,//只显示三维模式
         selectionIndicator: false,
-        infoBox: false,
+        infoBox: false,//信息框
         fullscreenButton: true,//全屏按钮
-        VrButton: true,//VR按钮
+        VrButton: false,//VR按钮
         navigationHelpButton: true,//导航帮助按钮
         sceneModePicker: true,//投影方式显示
     });
