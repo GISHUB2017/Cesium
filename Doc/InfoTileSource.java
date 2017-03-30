@@ -21,7 +21,7 @@ public class InfoTileSource extends OnlineTileSourceBase{
             String fileType,
             String[] aBaseUrl)
     {
-        super(key, aZoomMinLevel, aZoomMaxLevel, zeroSize, fileType, aBaseUrl);
+        super(key, aZoomMinLevel, aZoomMaxLevel, zeroSize/512, fileType, aBaseUrl);
         TileSystem.setTileSize(getTileSizePixels());
     }
 
