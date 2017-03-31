@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mapView = (MapView)findViewById(R.id.map);
-        InfoTileSource dataSource = new InfoTileSource("天地图影像S", 0,13,36,".jpg",new String[]{url1});
+        InfoTileSource dataSource = new InfoTileSource("天地图影像S", 0,13,512,".jpg",new String[]{url1});
         //iTelluroTileProvider itelluro = new iTelluroTileProvider(dataSource);
 
         MapTileProviderBase itelluro = new MapTileProviderBase(dataSource){
